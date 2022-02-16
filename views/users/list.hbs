@@ -2,10 +2,10 @@
 
 <ul>
   {{#each users}}
-    <li> {{ this.username }}
+    <li> {{username }}
 
       {{!-- uncomment after you create user details page --}}
-      {{!-- <a href="/users/{{this._id}}/posts">Read posts</a> --}}
+      <a href="/users/{{_id}}/posts">Read posts</a> 
     </li>
   {{/each}}
 </ul>
